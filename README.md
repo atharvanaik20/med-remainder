@@ -26,7 +26,7 @@ The Medicine Reminder App is built using the following technologies:
 To get started with the Medicine Reminder App, follow these steps:
 
 1. **Clone the repository**:
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/atharvanaik20/med-remainder.git
 
 
 2. **Configure the database**:
@@ -41,7 +41,7 @@ git clone https://github.com/your-username/your-repository.git
   ```
 
 4. **Access the Application**:
-- Open a web browser and go to `http://localhost:8080` to access the Medicine Reminder App.
+- Open a web browser and go to `http://localhost:8081` to access the Medicine Reminder App.
 
 ## Contributing
 
