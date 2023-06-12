@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>View Reminders</title>
+</head>
+<body>
+    <h2>View Reminders</h2>
+    <table>
+        <tr>
+            <th>Medication Name</th>
+            <th>Dosage</th>
+            <th>Reminder Time</th>
+        </tr>
+        <tr th:each="reminder : ${reminders}">
+            <td th:text="${reminder.medicationName}"></td>
+            <td th:text="${reminder.dosage}"></td>
+            <td th:text="${reminder.reminderTime}"></td>
+        </tr>
+    </table>
+</body>
+</html>
